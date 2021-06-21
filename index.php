@@ -29,5 +29,7 @@ $parola = $_GET['parola'];
 
     <h3>Paragrafo dopo GET</h3>
     <p> <?php echo str_replace($parola, '***', $paragrafo); ?> </p>
+    <p>Lunghezza: <?php echo strlen(str_replace($parola, '***', $paragrafo)); ?> </p>
+
 </body>
 </html>
